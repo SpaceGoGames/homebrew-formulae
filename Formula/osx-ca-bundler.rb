@@ -1,9 +1,8 @@
 class OsxCaBundler < Formula
   desc "Tool that bundles together all keychain system certs into one CA bundle to be used together"
   homepage "https://github.com/SpaceGoGames/osx-ca-bundler"
-  url "https://github.com/SpaceGoGames/osx-ca-bundler"
+  url "https://github.com/SpaceGoGames/osx-ca-bundler.git", tag: "0.0.1", revision: "e412ec537eb62c7fd28c34803a2f614649195c60"
   version "0.0.1"
-  sha256 "a4d2d61f14a2eb1eb8e042b2d35642d7c52558fd5b5fbfdc5e5ddddb2b62b07e"
   license "MIT"
 
   depends_on xcode: [">= 14.3", :build]
