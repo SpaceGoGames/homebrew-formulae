@@ -10,7 +10,7 @@ class OsxCaBundler < Formula
   depends_on macos: [
     :catalina,
     :big_sur,
-    :monterey
+    :monterey,
     :ventura
   ]
 
